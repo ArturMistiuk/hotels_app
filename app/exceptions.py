@@ -52,3 +52,7 @@ class IncorrectBookingDate(BookingError):
     status_code = status.HTTP_400_BAD_REQUEST
     detail = 'Incorrect date for booking'
 
+
+class IncorrectFile(BookingError):
+    status_code = status.HTTP_400_BAD_REQUEST
+    detail = 'Incorrect file. File must be .csv'
