@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Overbooked</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hotel-container {
+            display: flex;
+            margin-bottom: 15px;
+            margin-left: 150px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .hotel-image {
+            flex-shrink: 0;
+        }
+
+        .hotel-image img {
+            width: 400px;
+            height: auto;
+        }
+
+        .hotel-details {
+            padding: 15px;
+        }
+
+        .hotel-details h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .hotel-details h4 {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        {% for hotel in hotels %}
+        <div class="hotel-container">
+            <div class="hotel-image">
+                <img src="{{ url_for('static', path='images/' + hotel['Hotels'].image_id|string + '.webp') }}" alt="Hotel Image">
+            </div>
+            <div class="hotel-details">
+                <h1>{{hotel['Hotels'].name}}</h1>
+                <h4>{{hotel['Hotels'].location}}</h4>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

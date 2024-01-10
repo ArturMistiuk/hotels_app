@@ -1,0 +1,117 @@
+[
+    {
+        "hotel_id": 1,
+        "name": "Improved with Terrace and Lake View",
+        "description": "Incredible beauty of the room.",
+        "price": 24500,
+        "services": [
+            "Free Wi‑Fi",
+            "Air Conditioning (Climate Control)"
+        ],
+        "quantity": 5,
+        "image_id": 7
+    },
+    {
+        "hotel_id": 1,
+        "name": "Deluxe Plus",
+        "description": "The best hotel room.",
+        "price": 22450,
+        "services": [
+            "Free Wi‑Fi",
+            "Air Conditioning"
+        ],
+        "quantity": 10,
+        "image_id": 8
+    },
+    {
+        "hotel_id": 2,
+        "name": "Room for 2 Persons",
+        "description": "Indescribable beauty.",
+        "price": 4570,
+        "services": [],
+        "quantity": 15,
+        "image_id": 9
+    },
+    {
+        "hotel_id": 2,
+        "name": "Room for 3 Persons",
+        "description": null,
+        "price": 4350,
+        "services": [],
+        "quantity": 8,
+        "image_id": 10
+    },
+    {
+        "hotel_id": 3,
+        "name": "Semilux Family Room with 1 Double Bed",
+        "description": null,
+        "price": 7080,
+        "services": [
+            "Refrigerator"
+        ],
+        "quantity": 20,
+        "image_id": 11
+    },
+    {
+        "hotel_id": 3,
+        "name": "2-Room Comfort Suite",
+        "description": null,
+        "price": 9815,
+        "services": [],
+        "quantity": 10,
+        "image_id": 12
+    },
+    {
+        "hotel_id": 4,
+        "name": "Standard Double",
+        "description": null,
+        "price": 4300,
+        "services": [
+            "Free Wi‑Fi",
+            "Refrigerator"
+        ],
+        "quantity": 20,
+        "image_id": 13
+    },
+    {
+        "hotel_id": 4,
+        "name": "Improved Standard PLUS",
+        "description": null,
+        "price": 4700,
+        "services": [
+            "Free Wi‑Fi",
+            "Refrigerator",
+            "Bathroom",
+            "Air Conditioning"
+        ],
+        "quantity": 35,
+        "image_id": 14
+    },
+    {
+        "hotel_id": 5,
+        "name": "Standard Room with 2 Single Beds (with Breakfast)",
+        "description": null,
+        "price": 5000,
+        "services": [],
+        "quantity": 15,
+        "image_id": 15
+    },
+    {
+        "hotel_id": 5,
+        "name": "Premium Semilux Room (with Breakfast)",
+        "description": null,
+        "price": 8000,
+        "services": [],
+        "quantity": 7,
+        "image_id": 16
+    },
+    {
+        "hotel_id": 6,
+        "name": "Standard (Typical Building)",
+        "description": null,
+        "price": 8125,
+        "services": [],
+        "quantity": 45,
+        "image_id": 17
+    }
+]
